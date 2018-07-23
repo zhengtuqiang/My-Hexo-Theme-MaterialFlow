@@ -29,17 +29,14 @@ links:
 
 # navigation menu
 menu:
-  - name: Home
-    slug: home
+  - name: 首页
+    slug: 首页
     url: /
-  - name: Archives
-    slug: archives
+  - name: 文章
+    slug: 文章
     url: /archives
-  - name: Gallery
-    slug: gallery
-    url: https://photos.google.com/album/AF1QipNoqKYgspQo5O1YhlFXGCQ7p575KBH3Yxf8WHL4?hl=zh-CN
-  - name: About
-    slug: about
+  - name: 关于
+    slug: 关于
     url: /about
 
 # widgets
@@ -56,7 +53,7 @@ less:
 # use url, not username
 social:
 - slug: github
-  url: https://github.com/stkevintan
+  url: https://github.com/zhengtuqiang
 - slug: twitter
   url: https://twitter.com/kevinsfork
 - slug: rss
