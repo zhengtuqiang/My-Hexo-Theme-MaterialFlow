@@ -30,13 +30,13 @@ links:
 # navigation menu
 menu:
   - name: 首页
-    slug: 首页
+    slug: home
     url: /
   - name: 文章
-    slug: 文章
+    slug: archives
     url: /archives
   - name: 关于
-    slug: 关于
+    slug: about
     url: /about
 
 # widgets
@@ -54,7 +54,5 @@ less:
 social:
 - slug: github
   url: https://github.com/zhengtuqiang
-- slug: twitter
-  url: https://twitter.com/kevinsfork
 - slug: rss
-	url: /atom.xml
+  url: /atom.xml
