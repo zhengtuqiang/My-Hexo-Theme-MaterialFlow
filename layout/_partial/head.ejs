@@ -39,5 +39,14 @@
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
     }
+  <% if(theme.tongji.baidu_id){ %>
+  	var _hmt = _hmt || [];
+    (function() {
+       var hm = document.createElement("script");
+       hm.src = "https://hm.baidu.com/hm.js?<%- theme.tongji.baidu_id %>";
+       var s = document.getElementsByTagName("script")[0]; 
+       s.parentNode.insertBefore(hm, s);
+    })();
+  <% } %>
   </script>
 </head>
