@@ -1,6 +1,6 @@
 # Search
 search: 
-  enable: true
+  enable: false
   service: hexo # google/hexo/algolia/azure/baidu
   # google 
   google_api_key:
@@ -59,3 +59,4 @@ social:
   
 tongji:
   baidu_id: d2cb8096f7df1e36c00a89ca3447dc2e
+  busuanzi: true
