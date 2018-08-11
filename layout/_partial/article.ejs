@@ -12,9 +12,9 @@
 	</time>
 	<%- partial('categories',{post:post}) %>
 	</section>
-	<%# if(post.toc!==false){ %>
-		<!-- <section class="toc-wrapper"><%- toc(post.content) %></section> -->
-	<%# } %>
+	<% if(post.toc!==false){ %>
+		<section class="toc-wrapper"><%- toc(post.content, {class: false,list_number: false}) %></section>
+	<% } %>
 	<section class="article typo">
   	<div class="article-entry" itemprop="articleBody">
     	<%- post.content %>
